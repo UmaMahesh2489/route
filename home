@@ -1,0 +1,88 @@
+
+<div class="container-fluid">
+    
+    <div class="row">
+        <div style="text-align:center">Adding new details</div>
+        <div [ngClass]="'effects'">Add New Patient</div>
+        </div>
+        
+        <ul>
+            <li><a routerLink="patientdetails.component.html"><button class="btn ">Patient Details</button></a></li>
+            <li><a routerLink="home.component.html"><button class="btn ">Contact Details</button></a></li>
+            <li><a href="#"><button class="btn ">Identification Details</button></a></li>
+            <li><a href="#"><button class="btn ">Social Medical Details</button></a></li>
+            <li><a href="#"><button class="btn ">Emergency Contact Details</button></a></li>
+
+               </ul>
+               <div class="row">
+        <div class="col-3">
+           
+            <!-- <img [ngClass]="'changed'" [src]="pic"> -->
+            
+  <p style="text-align: center;margin: 55px;">Register Patient please enter all required details into the form.</p>
+
+</div>
+        
+            <div class="col-4">
+                <form>
+                        <div class="form-group">
+                            <label><b>FirstName</b></label><br>
+                      <input type="text" required placeholder="FirstName">
+                           </div>
+                           <div class="form-group">
+                            <label><b>LastName</b></label><br>
+                      <input type="text" required placeholder="LastName">
+                           </div>
+                           <div class="form-group">
+                            <label><b>Spouse's Name</b></label><br>
+                      <input type="text"  placeholder="Spouse's Name">
+                           </div>
+                           <div class="form-group">
+                            <label><b>Gender</b></label><br>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                           </div>
+                              </form>
+                </div>
+                <div class="col-4">
+
+
+                    <form>
+                        <div class="form-group">
+                            <label><b>Middle Name</b></label><br>
+                      <input type="text" required placeholder="middle Name">
+                           </div>
+                           <div class="form-group">
+                            <label><b>Father's Name</b></label><br>
+                      <input type="text" required placeholder="Father's Name">
+                           </div>
+                           <div class="form-group">
+                            <label><b>BirthDay</b></label><br>
+                      <input type="date"  >
+                           </div>
+                           <div class="form-group">
+                            <label><b>Martial Status</b></label><br>
+                            <input type="radio" id="Single" name="gender" value="Single">
+                            <label for="Single">Single</label>
+                            <input type="radio" id="Married" name="gender" value="Married">
+                            <label for="Married">Married</label>
+                                                        <input type="radio" id="Divorced" name="gender" value="Divorced">
+                            <label for="Divorced">Divorced</label>
+                            <input type="radio" id="Widow" name="gender" value="Widow">
+                            <label for="Widow">Widow</label>
+                           </div>
+                              </form>
+                    
+                
+                             
+                </div>            
+            
+            
+        
+       
+        </div>
+        <!-- <div [ngClass]="'vertical-cent'"> -->
+        <button  [ngClass]="'vertical-center'" class="btn btn-primary" ><a routerLink="patientdetails.component.html">Next</a></button>
+        <!-- </div> -->
