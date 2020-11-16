@@ -1,0 +1,98 @@
+<p>mypr0contact works!</p>
+<div class="container-fluid">
+    
+    <div class="row">
+        <div style="text-align:center">Adding new details</div>
+        <div [ngClass]="'effects'">Add New Patient</div>
+        </div>
+        
+        <ul>
+            <li><a routerlink="home.component.html"><button class="btn ">Patient Details</button></a></li>
+            <li><a routerlink="patient-details.component.html"><button class="btn ">Contact Details</button></a></li>
+            <li><a href="#"><button class="btn ">Identification Details</button></a></li>
+            <li><a href="#"><button class="btn ">Social Medical Details</button></a></li>
+            <li><a href="#"><button class="btn ">Emergency Contact Details</button></a></li>
+
+               </ul>
+               <div class="row">
+        <div class="col-3">
+           
+            <!-- <img [ngClass]="'changed'" [src]="pic"> -->
+            
+  <p style="text-align: center;margin: 55px;">Register Patient please enter all required details into the form.</p>
+
+</div>
+        
+            <div class="col-4">
+                <form>
+                        <div class="form-group">
+                            <label><b>Email</b></label><br>
+                      <input type="email"  placeholder="Email">
+                           </div>
+                           <div class="form-group">
+                            <label><b>Phone</b></label><br>
+                      <input type="text"  placeholder="Phone">
+                           </div>
+                           <div class="form-group">
+                            <label><b>Address1</b></label><br>
+                      <input type="text"  placeholder="Address1">
+                           </div>
+                           <div class="form-group">
+                            <label><b>City</b></label><br>
+                      <input type="text"  value="Visakhapatnam">
+                           </div>
+                           <div class="form-group">
+                            <label><b>State</b></label><br>
+                      
+                      <select>
+                          <option>AndharaPradesh</option>
+                          <option>Telangana</option>
+                          <option>Kerala</option>
+                           <option>Karnataka</option>
+
+                      </select>
+                           </div>
+                          
+                              </form>
+                </div>
+                <div class="col-4">
+
+
+                    <form>
+                        <div class="form-group">
+                            <label><b>Alternative Email </b></label><br>
+                      <input type="text" required placeholder="Email">
+                           </div>
+                           <div class="form-group">
+                            <label><b>Alternative Phone</b></label><br>
+                      <input type="text" required placeholder="Phone">
+                           </div>
+                           <div class="form-group">
+                            <label><b>Address2</b></label><br>
+                      <input type="text" placeholder="Address2" >
+                           </div>
+                           <br>
+                           <br>
+                           <br>
+                           <div class="form-group">
+                           <label><b>Pincode</b></label><br>
+                           <input type="text" placeholder="Pincode">
+                           </div> 
+                              </form>
+                    
+                
+                             
+                </div>            
+            
+            
+        
+       
+        </div>
+        <!-- <div [ngClass]="'vertical-cent'"> -->
+            <div class="wrapper">
+                <button class="button btn btn-primary"><a routerlink="home.component.html">Previous</a></button>
+                <button class="button btn btn-primary"><a routerlink="patient-details.component.html">Next</a></button>
+              <!-- </div>
+        <button  class="btn btn-primary" >Previous</button> 
+        <button class="btn btn-primary" >Next</button> -->
+        <!-- </div> -->
