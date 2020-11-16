@@ -1,0 +1,43 @@
+.effects {
+    border:2px solid darkcyan;
+    /* box-shadow: 2px 3px 4px darkcyan; */
+    background-color:green;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    margin-left:50px;
+    text-align: center;
+    
+}
+.btn:hover {
+
+    background-color:green;
+    
+}
+
+.changed {
+    height: 50px;
+    border-radius: 50%;
+
+
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+  }
+
+/* .side{
+
+    background-color: b784a7;
+    
+} */
